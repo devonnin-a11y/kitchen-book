@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kitchen Book — Professional Recipe Encyclopedia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="header-top">
+      <div class="logo">
+        <div class="logo-icon">📖</div>
+        <div>
+          <h1>Kitchen Book</h1>
+          <span>Professional Recipe Encyclopedia + Holistic System</span>
+        </div>
+      </div>
+      <div class="mode-tabs">
+        <button class="mode-tab active" data-mode="food">🍽️ Kitchen</button>
+        <button class="mode-tab" data-mode="holistic">🌿 Holistic</button>
+      </div>
+    </div>
+    <div class="search-hero">
+      <div class="search-wrap">
+        <input type="text" id="global-search" placeholder="Search recipes, ingredients, cuisines, techniques..." autocomplete="off" />
+        <button class="search-btn" id="search-btn">Search</button>
+      </div>
+      <div class="search-hints" id="search-hints">
+        <span class="hint" data-q="pasta">pasta</span>
+        <span class="hint" data-q="chicken">chicken</span>
+        <span class="hint" data-q="italian">italian</span>
+        <span class="hint" data-q="vegan">vegan</span>
+        <span class="hint" data-q="quick">quick</span>
+        <span class="hint" data-q="dessert">dessert</span>
+        <span class="hint" data-q="curry">curry</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <aside class="sidebar">
+      <h2 id="sidebar-title">🛒 Ingredients on Hand</h2>
+      <input type="text" class="ing-search" id="ingredient-search" placeholder="Filter ingredients..." />
+      <div class="ingredient-grid" id="ingredient-list"></div>
+      <div class="selected-count" id="selected-count">0 selected</div>
+      <div class="btn-row">
+        <button class="btn btn-primary" id="find-btn">Match Recipes</button>
+        <button class="btn btn-ghost" id="clear-btn">Clear</button>
+      </div>
+    </aside>
+
+    <section class="results-area">
+      <div class="results-header">
+        <div>
+          <h2 id="results-title">Loading Kitchen Book…</h2>
+          <div class="stats" id="stats-bar"></div>
+        </div>
+        <div class="filter-bar" id="filter-pills"></div>
+      </div>
+      <div class="recipe-grid" id="recipe-grid">
+        <div class="loading" id="loading">Loading recipe packs…</div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Kitchen Book · Modular data architecture · Ready for GitHub · Educational use only
+  </footer>
+
+  <div class="modal-overlay" id="modal">
+    <div class="modal">
+      <div class="modal-header">
+        <div>
+          <div id="modal-badges"></div>
+          <h2 id="modal-title"></h2>
+        </div>
+        <button class="close-btn" id="close-modal">×</button>
+      </div>
+      <div class="modal-body" id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
