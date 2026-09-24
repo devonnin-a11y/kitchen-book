@@ -1,67 +1,20 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "name": "Kitchen Book",
-  "description": "Professional Recipe Encyclopedia + Holistic System",
+  "description": "Professional Recipe Encyclopedia + Holistic System — Expanded",
   "packs": [
-    {
-      "file": "italian.json",
-      "cuisine": "Italian",
-      "count": 20
-    },
-    {
-      "file": "french.json",
-      "cuisine": "French",
-      "count": 20
-    },
-    {
-      "file": "chinese.json",
-      "cuisine": "Chinese",
-      "count": 15
-    },
-    {
-      "file": "japanese.json",
-      "cuisine": "Japanese",
-      "count": 12
-    },
-    {
-      "file": "thai.json",
-      "cuisine": "Thai",
-      "count": 10
-    },
-    {
-      "file": "korean.json",
-      "cuisine": "Korean",
-      "count": 10
-    },
-    {
-      "file": "indian.json",
-      "cuisine": "Indian",
-      "count": 15
-    },
-    {
-      "file": "mexican.json",
-      "cuisine": "Mexican",
-      "count": 12
-    },
-    {
-      "file": "mediterranean.json",
-      "cuisine": "Mediterranean",
-      "count": 10
-    },
-    {
-      "file": "american.json",
-      "cuisine": "American",
-      "count": 10
-    },
-    {
-      "file": "world.json",
-      "cuisine": "World",
-      "count": 10
-    },
-    {
-      "file": "holistic.json",
-      "section": "Holistic",
-      "count": 15
-    }
+    {"file": "american.json", "cuisine": "American", "count": 10},
+    {"file": "chinese.json", "cuisine": "Chinese", "count": 23},
+    {"file": "french.json", "cuisine": "French", "count": 28},
+    {"file": "haitian.json", "cuisine": "Haitian Creole", "count": 10},
+    {"file": "holistic.json", "section": "Holistic", "count": 15},
+    {"file": "indian.json", "cuisine": "Indian", "count": 15},
+    {"file": "italian.json", "cuisine": "Italian", "count": 28},
+    {"file": "japanese.json", "cuisine": "Japanese", "count": 20},
+    {"file": "korean.json", "cuisine": "Korean", "count": 18},
+    {"file": "mediterranean.json", "cuisine": "Mediterranean", "count": 10},
+    {"file": "mexican.json", "cuisine": "Mexican", "count": 12},
+    {"file": "thai.json", "cuisine": "Thai", "count": 10},
+    {"file": "world.json", "cuisine": "World", "count": 10}
   ]
 }
