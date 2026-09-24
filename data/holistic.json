@@ -1,0 +1,20 @@
+{
+  "section": "Holistic",
+  "remedies": [
+    {"id":"h01","name":"Coconut Oil Deep Conditioning","category":"Hair","type":"Topical","target":"Hair","ingredients":["Coconut Oil"],"benefits":"Intense moisture, shine","steps":["Warm oil.","Massage into hair.","Leave 30–60 min.","Shampoo thoroughly."],"caution":"Can weigh down fine hair."},
+    {"id":"h02","name":"Rosemary Scalp Tonic","category":"Hair","type":"Topical","target":"Hair","ingredients":["Rosemary","Olive Oil","Castor Oil"],"benefits":"Scalp circulation support","steps":["Infuse rosemary in oils.","Massage into scalp.","Leave 1–2 hrs.","Wash thoroughly."],"caution":"Dilute essential oils."},
+    {"id":"h03","name":"Rice Water Rinse","category":"Hair","type":"Topical","target":"Hair","ingredients":["Rice Water"],"benefits":"Strength and shine","steps":["Soak rice or use cooking water.","Use as final rinse."],"caution":"Start short on fine hair."},
+    {"id":"h04","name":"Honey Yogurt Face Mask","category":"Skin","type":"Topical","target":"Skin","ingredients":["Honey","Yogurt"],"benefits":"Gentle glow and hydration","steps":["Mix and apply 10–15 min.","Rinse."],"caution":"Use plain yogurt."},
+    {"id":"h05","name":"Aloe Vera Gel","category":"Skin","type":"Topical","target":"Skin","ingredients":["Aloe Vera"],"benefits":"Soothes and hydrates","steps":["Apply pure gel to clean skin."],"caution":"Patch test."},
+    {"id":"h06","name":"Oatmeal Bath","category":"Skin","type":"Topical","target":"Skin","ingredients":["Oats"],"benefits":"Soothes dry or itchy skin","steps":["Grind oats. Add to bath.","Soak 15–20 min."],"caution":"Bath can be slippery."},
+    {"id":"h07","name":"Ginger Lemon Tonic","category":"Digestion","type":"Internal","target":"Digestion","ingredients":["Ginger","Lemon","Honey"],"benefits":"Supports digestion","steps":["Grate ginger into warm water.","Add lemon and honey."],"caution":"Lemon may affect enamel."},
+    {"id":"h08","name":"Turmeric Golden Milk","category":"Immunity","type":"Internal","target":"Immunity","ingredients":["Turmeric","Ginger","Honey","Milk","Cinnamon"],"benefits":"Traditional anti-inflammatory support","steps":["Warm milk with spices.","Sweeten with honey."],"caution":"Consult if on blood thinners."},
+    {"id":"h09","name":"Chamomile Tea","category":"Stress","type":"Internal","target":"Stress","ingredients":["Chamomile","Honey"],"benefits":"Gentle calming","steps":["Steep 5–8 min.","Sip before bed."],"caution":"Rare allergy possible."},
+    {"id":"h10","name":"Ashwagandha Milk","category":"Stress","type":"Internal","target":"Stress","ingredients":["Ashwagandha","Milk","Honey","Cinnamon"],"benefits":"Adaptogenic calm support","steps":["Warm milk with ashwagandha.","Add cinnamon and honey."],"caution":"Consult professional before use."},
+    {"id":"h11","name":"Apple Cider Vinegar Rinse","category":"Hair","type":"Topical","target":"Hair","ingredients":["Apple Cider Vinegar"],"benefits":"Clarifies and balances pH","steps":["Dilute 1–2 tbsp in water.","Use as final rinse."],"caution":"Always dilute."},
+    {"id":"h12","name":"Cucumber Compress","category":"Skin","type":"Topical","target":"Skin","ingredients":["Cucumber"],"benefits":"Cools and reduces puffiness","steps":["Chill slices. Place on eyes or face 10–15 min."],"caution":"Very gentle."},
+    {"id":"h13","name":"Peppermint Tea","category":"Digestion","type":"Internal","target":"Digestion","ingredients":["Peppermint"],"benefits":"Soothes occasional bloating","steps":["Steep 5–8 min. Sip after meals."],"caution":"Avoid if mint triggers GERD."},
+    {"id":"h14","name":"Elderberry Syrup","category":"Immunity","type":"Internal","target":"Immunity","ingredients":["Elderberry","Honey","Ginger","Cinnamon"],"benefits":"Traditional immune support","steps":["Simmer elderberries with spices.","Strain, cool, add honey."],"caution":"No honey for infants under 1."},
+    {"id":"h15","name":"Lemon Cucumber Water","category":"Detox","type":"Internal","target":"Detox","ingredients":["Lemon","Cucumber","Mint"],"benefits":"Hydration support","steps":["Infuse in water 1–4 hrs. Drink throughout day."],"caution":"Supportive only."}
+  ]
+}
