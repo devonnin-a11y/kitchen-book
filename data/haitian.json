@@ -1,15 +1,188 @@
 {
   "cuisine": "Haitian Creole",
   "recipes": [
-    {"id":"ht01","name":"Poulet aux Noix (Chicken with Cashews)","style":"Home","meal":"Dinner","diet":[],"time":"1 hr","diff":"Medium","tags":["chicken","haitian"],"ingredients":["Chicken","Onion","Garlic","Tomato","Bell Pepper","Cashew","Thyme","Lime","Oil","Salt","Pepper"],"steps":["Marinate chicken with lime, garlic, thyme, salt.","Brown chicken. Sauté onion, pepper, tomato.","Add cashews and simmer until chicken is tender."]},
-    {"id":"ht02","name":"Diri Kole (Rice and Beans)","style":"Home","meal":"Dinner","diet":["Vegan"],"time":"50 min","diff":"Easy","tags":["rice","beans","haitian"],"ingredients":["Rice","Beans","Onion","Garlic","Thyme","Coconut Milk","Oil","Salt"],"steps":["Cook beans until soft.","Sauté onion and garlic. Add rice, beans, coconut milk.","Simmer until rice is done."]},
-    {"id":"ht03","name":"Griot (Fried Pork)","style":"Professional","meal":"Dinner","diet":[],"time":"2 hrs","diff":"Medium","tags":["pork","fried","haitian"],"ingredients":["Pork","Onion","Garlic","Lime","Orange","Thyme","Scotch Bonnet","Oil","Salt"],"steps":["Marinate pork with citrus, garlic, thyme, hot pepper.","Boil until tender.","Fry until crispy and golden."]},
-    {"id":"ht04","name":"Soup Joumou (Pumpkin Soup)","style":"Home","meal":"Lunch","diet":[],"time":"1.5 hrs","diff":"Medium","tags":["soup","pumpkin","haitian"],"ingredients":["Pumpkin","Beef","Onion","Garlic","Carrot","Celery","Pasta","Thyme","Parsley","Lime","Salt"],"steps":["Boil beef with aromatics.","Add pumpkin and vegetables until soft.","Blend or mash pumpkin, add pasta, finish with lime."]},
-    {"id":"ht05","name":"Legim (Vegetable Stew)","style":"Home","meal":"Dinner","diet":["Vegetarian"],"time":"45 min","diff":"Easy","tags":["vegetable","stew","haitian"],"ingredients":["Eggplant","Cabbage","Carrot","Onion","Garlic","Tomato","Thyme","Oil","Salt"],"steps":["Sauté onion and garlic.","Add vegetables and tomato.","Simmer until soft and cohesive."]},
-    {"id":"ht06","name":"Bannann Peze (Fried Plantains)","style":"Home","meal":"Side","diet":["Vegan"],"time":"20 min","diff":"Easy","tags":["plantain","fried","haitian"],"ingredients":["Plantain","Oil","Salt"],"steps":["Peel and slice plantains.","Fry until golden, smash flat.","Fry again until crisp. Salt."]},
-    {"id":"ht07","name":"Tassot (Fried Goat or Beef)","style":"Professional","meal":"Dinner","diet":[],"time":"2 hrs","diff":"Medium","tags":["beef","fried","haitian"],"ingredients":["Beef","Onion","Garlic","Lime","Thyme","Oil","Salt","Pepper"],"steps":["Marinate meat with lime, garlic, thyme.","Boil until tender.","Fry until crispy."]},
-    {"id":"ht08","name":"Pikliz (Spicy Pickled Slaw)","style":"Home","meal":"Side","diet":["Vegan"],"time":"20 min + pickle","diff":"Easy","tags":["pickle","spicy","haitian"],"ingredients":["Cabbage","Carrot","Onion","Scotch Bonnet","Vinegar","Salt","Pepper"],"steps":["Shred cabbage and carrot.","Add onion and hot pepper.","Cover with vinegar, salt, pepper. Rest."]},
-    {"id":"ht09","name":"Mayi Moulen (Cornmeal Mush)","style":"Home","meal":"Side","diet":["Vegan"],"time":"30 min","diff":"Easy","tags":["corn","haitian"],"ingredients":["Corn","Coconut Milk","Salt","Butter"],"steps":["Cook cornmeal slowly with coconut milk.","Stir until thick and smooth.","Finish with butter and salt."]},
-    {"id":"ht10","name":"Akasan (Corn Drink)","style":"Home","meal":"Breakfast","diet":["Vegetarian"],"time":"25 min","diff":"Easy","tags":["drink","corn","haitian"],"ingredients":["Corn","Milk","Cinnamon","Vanilla","Sugar","Star Anise"],"steps":["Cook cornmeal in water until thick.","Add milk, cinnamon, vanilla, sugar.","Serve warm or chilled."]}
+    {
+      "id": "ht01",
+      "name": "Poulet aux Noix (Chicken with Cashews)",
+      "style": "Home",
+      "meal": "Dinner",
+      "diet": [],
+      "time": "1 hr",
+      "diff": "Medium",
+      "tags": ["chicken", "haitian"],
+      "ingredients": ["Chicken", "Onion", "Garlic", "Tomato", "Bell Pepper", "Cashew", "Thyme", "Lime", "Oil", "Salt", "Pepper"],
+      "steps": [
+        "Prep: Cut chicken into serving pieces. Juice 1–2 limes. Mince 4–5 garlic cloves. Dice 1 onion, 1 bell pepper, and 2 tomatoes. Roughly chop 3/4 cup cashews.",
+        "Marinate: In a bowl, toss chicken with lime juice, half the garlic, 1 tsp thyme, 1 tsp salt, and black pepper. Rest 20–30 minutes at room temperature.",
+        "Brown: Heat 2–3 tbsp oil in a heavy pot over medium-high. Brown chicken on all sides in batches; set aside.",
+        "Build sauce: In the same pot, saute onion and bell pepper until soft, 5 minutes. Add remaining garlic and cook 30 seconds. Stir in tomatoes and a pinch of salt; cook until they break down, 5–7 minutes.",
+        "Simmer: Return chicken and any juices. Add 1/2 cup water or stock and the cashews. Cover and simmer on medium-low 25–30 minutes until chicken is cooked through and sauce is thick.",
+        "Finish: Taste and adjust salt, lime, and pepper. Serve with diri (rice) or bannann peze."
+      ]
+    },
+    {
+      "id": "ht02",
+      "name": "Diri Kole (Rice and Beans)",
+      "style": "Home",
+      "meal": "Dinner",
+      "diet": ["Vegan"],
+      "time": "50 min",
+      "diff": "Easy",
+      "tags": ["rice", "beans", "haitian"],
+      "ingredients": ["Rice", "Beans", "Onion", "Garlic", "Thyme", "Coconut Milk", "Oil", "Salt"],
+      "steps": [
+        "Prep beans: If using dried beans, soak overnight or quick-soak. Drain. Cover with fresh water, add a sprig of thyme, and simmer until tender, 45–60 minutes. Drain, reserving 1 cup cooking liquid. (Canned beans: rinse and drain.)",
+        "Aromatics: Dice 1 onion and mince 3 garlic cloves. Heat 2 tbsp oil in a pot. Saute onion until translucent, then garlic for 30 seconds.",
+        "Toast rice: Add 2 cups rinsed long-grain rice. Stir 1–2 minutes until grains look slightly opaque.",
+        "Cook: Add beans, 1 cup coconut milk, reserved bean liquid (or water) to cover by about 1/2 inch, 1 tsp salt, and thyme. Bring to a boil.",
+        "Steam: Reduce heat to low, cover tightly, and cook 18–20 minutes without lifting the lid. Rest off heat 5 minutes.",
+        "Finish: Fluff with a fork. Adjust salt. Serve as a side or main with pikliz."
+      ]
+    },
+    {
+      "id": "ht03",
+      "name": "Griot (Fried Pork)",
+      "style": "Professional",
+      "meal": "Dinner",
+      "diet": [],
+      "time": "2 hrs",
+      "diff": "Medium",
+      "tags": ["pork", "fried", "haitian"],
+      "ingredients": ["Pork", "Onion", "Garlic", "Lime", "Orange", "Thyme", "Scotch Bonnet", "Oil", "Salt"],
+      "steps": [
+        "Prep: Cut 2–3 lbs pork shoulder into 1.5–2 inch chunks. Juice 2 limes and 1 orange. Mince 6 garlic cloves. Slice 1 onion. Leave Scotch bonnet whole or slit once for heat control.",
+        "Marinate: Combine pork with citrus juice, garlic, onion, 2 tsp thyme, 2 tsp salt, and the pepper. Mix well. Marinate at least 1 hour, preferably overnight in the fridge.",
+        "Boil: Transfer pork and marinade to a pot. Add water to barely cover. Bring to a boil, then simmer 45–60 minutes until pork is tender but not falling apart. Drain well.",
+        "Dry: Pat pork dry with paper towels — moisture prevents crispiness.",
+        "Fry: Heat 1–2 inches oil to 350F (175C). Fry pork in batches until deep golden and crisp, 4–6 minutes. Drain on a rack or paper towels.",
+        "Serve: Hot with pikliz, bannann peze, and rice. Squeeze extra lime over the top."
+      ]
+    },
+    {
+      "id": "ht04",
+      "name": "Soup Joumou (Pumpkin Soup)",
+      "style": "Home",
+      "meal": "Lunch",
+      "diet": [],
+      "time": "1.5 hrs",
+      "diff": "Medium",
+      "tags": ["soup", "pumpkin", "haitian"],
+      "ingredients": ["Pumpkin", "Beef", "Onion", "Garlic", "Carrot", "Celery", "Pasta", "Thyme", "Parsley", "Lime", "Salt"],
+      "steps": [
+        "Prep: Cut 1–2 lbs stewing beef into chunks. Peel and cube 2 lbs pumpkin (or use kabocha). Dice onion, carrot, and celery. Mince garlic. Chop parsley.",
+        "Meat base: In a large pot, cover beef with water. Add onion, garlic, thyme, and salt. Bring to a boil, skim foam, then simmer 45–60 minutes until beef is tender.",
+        "Vegetables: Add pumpkin, carrot, and celery. Simmer until pumpkin is very soft, 20–25 minutes.",
+        "Texture: Remove some pumpkin pieces and mash or blend them, then return to the pot for body.",
+        "Pasta: Add small pasta (or broken spaghetti) and cook until tender, 8–10 minutes. Add water if the soup is too thick.",
+        "Finish: Stir in parsley and a squeeze of lime. Taste for salt. Serve hot — traditionally on New Year's Day in Haiti."
+      ]
+    },
+    {
+      "id": "ht05",
+      "name": "Legim (Vegetable Stew)",
+      "style": "Home",
+      "meal": "Dinner",
+      "diet": ["Vegetarian"],
+      "time": "45 min",
+      "diff": "Easy",
+      "tags": ["vegetable", "stew", "haitian"],
+      "ingredients": ["Eggplant", "Cabbage", "Carrot", "Onion", "Garlic", "Tomato", "Thyme", "Oil", "Salt"],
+      "steps": [
+        "Prep: Cube 1 large eggplant. Shred 1/2 cabbage. Slice 2 carrots. Dice 1 onion and 2 tomatoes. Mince 3 garlic cloves.",
+        "Saute base: Heat 3 tbsp oil in a wide pot. Cook onion until soft, then garlic 30 seconds. Add tomatoes and thyme; cook until saucy, 5 minutes.",
+        "Layer vegetables: Add eggplant and a pinch of salt. Cook 5 minutes, stirring. Add carrot, then cabbage. Mix gently.",
+        "Simmer: Add 1/2 cup water. Cover and cook on medium-low 20–25 minutes, stirring occasionally, until vegetables are soft and the stew is cohesive.",
+        "Finish: Taste and adjust salt. Some cooks mash part of the mixture for a thicker texture. Serve with rice."
+      ]
+    },
+    {
+      "id": "ht06",
+      "name": "Bannann Peze (Fried Plantains)",
+      "style": "Home",
+      "meal": "Side",
+      "diet": ["Vegan"],
+      "time": "20 min",
+      "diff": "Easy",
+      "tags": ["plantain", "fried", "haitian"],
+      "ingredients": ["Plantain", "Oil", "Salt"],
+      "steps": [
+        "Prep: Use green (unripe) plantains. Cut off ends, score the peel lengthwise, and remove the skin. Cut into 1-inch thick diagonal slices.",
+        "First fry: Heat 1/2 inch oil to about 325F (160C). Fry plantain slices 2–3 minutes per side until pale gold and slightly soft. Do not brown deeply yet. Drain.",
+        "Smash: Place each piece between parchment or in a tostonera and press firmly into a flat disc about 1/4 inch thick.",
+        "Second fry: Raise oil to 350–360F (175–180C). Fry smashed plantains again until deep golden and crisp, 1–2 minutes per side.",
+        "Season: Drain on a rack. Sprinkle with salt while hot. Serve immediately with griot or as a side."
+      ]
+    },
+    {
+      "id": "ht07",
+      "name": "Tassot (Fried Beef)",
+      "style": "Professional",
+      "meal": "Dinner",
+      "diet": [],
+      "time": "2 hrs",
+      "diff": "Medium",
+      "tags": ["beef", "fried", "haitian"],
+      "ingredients": ["Beef", "Onion", "Garlic", "Lime", "Thyme", "Oil", "Salt", "Pepper"],
+      "steps": [
+        "Prep: Cut 2 lbs beef (chuck or similar) into strips or chunks. Juice 2 limes. Mince 5 garlic cloves. Slice 1 onion.",
+        "Marinate: Toss beef with lime, garlic, onion, thyme, 2 tsp salt, and pepper. Marinate 1 hour or overnight.",
+        "Boil: Put beef and marinade in a pot with water to cover. Simmer 1–1.5 hours until tender. Drain thoroughly and pat dry.",
+        "Fry: Heat oil to 350F. Fry beef in batches until browned and crisp at the edges, 3–5 minutes. Drain.",
+        "Serve: With pikliz, plantains, and rice."
+      ]
+    },
+    {
+      "id": "ht08",
+      "name": "Pikliz (Spicy Pickled Slaw)",
+      "style": "Home",
+      "meal": "Side",
+      "diet": ["Vegan"],
+      "time": "20 min + pickle",
+      "diff": "Easy",
+      "tags": ["pickle", "spicy", "haitian"],
+      "ingredients": ["Cabbage", "Carrot", "Onion", "Scotch Bonnet", "Vinegar", "Salt", "Pepper"],
+      "steps": [
+        "Prep: Finely shred 1/2 small cabbage. Grate or julienne 2 carrots. Thinly slice 1 small onion. Slice 1–2 Scotch bonnets (remove seeds for less heat; wear gloves).",
+        "Combine: In a glass jar or bowl, mix cabbage, carrot, onion, and pepper. Add 1 tsp salt and black pepper.",
+        "Pickle: Pour white vinegar (or a mix of vinegar and lime juice) over the vegetables until fully submerged. Press down so everything is under liquid.",
+        "Rest: Cover and refrigerate at least 4 hours, ideally overnight. Flavor improves over 1–2 days.",
+        "Serve: As a sharp, spicy condiment with griot, tassot, fried fish, or rice. Keeps refrigerated 1–2 weeks."
+      ]
+    },
+    {
+      "id": "ht09",
+      "name": "Mayi Moulen (Cornmeal Mush)",
+      "style": "Home",
+      "meal": "Side",
+      "diet": ["Vegan"],
+      "time": "30 min",
+      "diff": "Easy",
+      "tags": ["corn", "haitian"],
+      "ingredients": ["Corn", "Coconut Milk", "Salt", "Butter"],
+      "steps": [
+        "Liquid: In a pot, combine 2 cups water and 1 cup coconut milk. Bring to a gentle simmer. Add 1/2 tsp salt.",
+        "Cornmeal: Whisk in 1 cup fine cornmeal in a slow stream to avoid lumps. Switch to a wooden spoon.",
+        "Cook: Stir frequently over medium-low heat 15–20 minutes until thick, smooth, and the raw corn taste is gone. Add water if it gets too stiff.",
+        "Finish: Stir in 1 tbsp butter or oil. Taste for salt. Serve soft as a side, or pour into a dish, cool, slice, and pan-fry."
+      ]
+    },
+    {
+      "id": "ht10",
+      "name": "Akasan (Corn Drink)",
+      "style": "Home",
+      "meal": "Breakfast",
+      "diet": ["Vegetarian"],
+      "time": "25 min",
+      "diff": "Easy",
+      "tags": ["drink", "corn", "haitian"],
+      "ingredients": ["Corn", "Milk", "Cinnamon", "Vanilla", "Sugar", "Star Anise"],
+      "steps": [
+        "Base: Whisk 1/2 cup fine cornmeal into 2 cups cold water until smooth.",
+        "Cook: Pour into a pot. Add 1 cinnamon stick and 1 star anise. Cook over medium heat, stirring constantly, until thickened, 8–10 minutes.",
+        "Enrich: Gradually whisk in 2 cups milk. Simmer 5 more minutes. Remove spices.",
+        "Sweeten: Stir in sugar to taste (start with 3–4 tbsp) and 1 tsp vanilla.",
+        "Serve: Hot in mugs, or chill and serve cold. Stir before drinking if it thickens further."
+      ]
+    }
   ]
 }
