@@ -48,6 +48,7 @@ main{max-width:1400px;margin:0 auto;padding:1.25rem 1.5rem 2rem;display:grid;gri
 .badge-home{background:rgba(45,212,191,.15);color:var(--teal)}
 .badge-topical{background:rgba(244,114,182,.15);color:var(--pink)}
 .badge-internal{background:rgba(167,139,250,.15);color:var(--purple)}
+.badge-dessert{background:rgba(244,114,182,.15);color:var(--pink)}
 .card-title{font-size:1.02rem;font-weight:600;margin-bottom:.15rem}
 .card-meta{font-size:.76rem;color:var(--text-muted)}
 .card-body{padding:0 1.05rem 1.05rem}
@@ -74,3 +75,13 @@ main{max-width:1400px;margin:0 auto;padding:1.25rem 1.5rem 2rem;display:grid;gri
 .steps li{margin-bottom:.4rem}
 footer{text-align:center;padding:1.25rem;color:var(--text-muted);font-size:.76rem;border-top:1px solid var(--border)}
 .loading{text-align:center;padding:3rem;color:var(--text-muted)}
+.ing-category{width:100%;font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--text-muted);margin:.75rem 0 .35rem;padding-bottom:.2rem;border-bottom:1px solid var(--border)}
+.ing-category:first-child{margin-top:0}
+.kitchen-bar{margin-top:.85rem;padding:.75rem;background:var(--bg);border:1px solid var(--border);border-radius:10px;max-height:160px;overflow-y:auto}
+.kitchen-bar-title{font-size:.78rem;font-weight:600;margin-bottom:.5rem;color:var(--text)}
+.kitchen-bar-title span{color:var(--accent-hover);font-weight:500}
+.kitchen-empty{font-size:.75rem;color:var(--text-muted);line-height:1.4}
+.kitchen-chips{display:flex;flex-wrap:wrap;gap:.3rem}
+.kitchen-chip{display:inline-flex;align-items:center;gap:.25rem;padding:.2rem .35rem .2rem .55rem;background:rgba(91,141,239,.15);border:1px solid var(--accent);border-radius:999px;font-size:.72rem;color:var(--accent-hover)}
+.kitchen-remove{background:transparent;border:none;color:var(--text-muted);cursor:pointer;font-size:1rem;line-height:1;padding:0 .2rem;border-radius:50%}
+.kitchen-remove:hover{color:var(--orange);background:rgba(251,146,60,.15)}
