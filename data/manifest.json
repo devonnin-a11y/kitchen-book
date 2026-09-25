@@ -1,10 +1,11 @@
 {
-  "version": "1.1",
+  "version": "1.2",
   "name": "Kitchen Book",
   "description": "Professional Recipe Encyclopedia + Holistic System — Expanded",
   "packs": [
     {"file": "american.json", "cuisine": "American", "count": 10},
     {"file": "chinese.json", "cuisine": "Chinese", "count": 23},
+    {"file": "desserts.json", "cuisine": "Desserts & Pastries", "count": 12},
     {"file": "french.json", "cuisine": "French", "count": 28},
     {"file": "haitian.json", "cuisine": "Haitian Creole", "count": 10},
     {"file": "holistic.json", "section": "Holistic", "count": 15},
